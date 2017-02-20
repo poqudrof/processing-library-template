@@ -1,4 +1,4 @@
-This is another library compilation / distribution template. It works in command line, all is require is bash and maven (and a JDK obviously), so it works directly on OSX and Linux. You can get command line tools for Linux with the [Cygwin](https://www.cygwin.com/) project.
+This is another library compilation / distribution template. It works in command line, all is require is bash and maven (and a JDK obviously), so it works directly on OSX and Linux. You can get command line tools for Windows with the [Cygwin](https://www.cygwin.com/) project.
 
 You can also import in Netbeans, and possible Eclipse, or any other IDE that can read Maven projects.
 
