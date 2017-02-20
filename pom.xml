@@ -6,20 +6,20 @@
     <version>1.0</version>
     <packaging>jar</packaging>
     <name>myLib</name>
-    
+
     <build>
         <sourceDirectory>src</sourceDirectory>
         <testSourceDirectory>test</testSourceDirectory>
-        
-        <plugins>       
+
+        <plugins>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-jar-plugin</artifactId>
                 <version>2.3.2</version>
                 <configuration>
-                    <finalName>myLib</finalName>                   
+                    <finalName>myLib</finalName>
                 </configuration>
-            </plugin>            
+            </plugin>
 
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
@@ -49,14 +49,14 @@
                 </executions>
             </plugin>
         </plugins>
-        
+
     </build>
-    
+
     <dependencies>
         <dependency>
             <groupId>org.processing</groupId>
             <artifactId>core</artifactId>
-            <version>3.0b4</version>
+            <version>3.2.3</version>
         </dependency>
     </dependencies>
     <properties>
